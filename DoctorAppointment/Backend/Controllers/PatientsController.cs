@@ -1,6 +1,6 @@
 ﻿namespace DoctorAppointment.Backend.Controllers
 {
-    public class PatientsConntroller
+    public class PatientsController
     {
     }
 }

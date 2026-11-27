@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
 
-public class Class1
+namespace DoctorAppointment.Api.Models;
+
+public class ApplicationUser : IdentityUser
 {
-	public Class1()
-	{
-	}
+    public string FullName { get; set; } = string.Empty;
+    public bool IsActive { get; set; } = true;
 }
