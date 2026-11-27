@@ -1,8 +1,23 @@
-﻿using System;
+﻿namespace DoctorAppointment.Api.Models;
 
-public class Class1
+public class User
 {
-	public Class1()
-	{
-	}
+    public int UserId { get; set; }
+
+    public string Name { get; set; } = string.Empty;
+
+    public string Email { get; set; } = string.Empty;
+
+    public string PasswordHash { get; set; } = string.Empty;
+
+    public UserRole Role { get; set; }
+
+    public bool IsActive { get; set; } = true;
+
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+    // Navigation Properties
+    public Doctor? Doctor { get; set; }
+
+    public Patient? Patient { get; set; }
 }
