@@ -1,3 +1,5 @@
+using System.Numerics;
+
 namespace DoctorAppointment.Api.Models;
 
 public class Specialization

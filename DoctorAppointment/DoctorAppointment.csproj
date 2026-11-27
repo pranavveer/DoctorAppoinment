@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Backend\Migrations\" />
-    <Folder Include="doctor-appointment-ui\src\app\" />
+    <Folder Include="doctor-appointment-ui\" />
+    <Folder Include="DoctorAppoinment.Api\Migrations\" />
   </ItemGroup>
 
 </Project>
